@@ -73,8 +73,8 @@ perform RTL LOGIC and get waveform.
 ```
 /*
 Program for Endocers and verify its truth table in quartus using Verilog programming.
-Developed by: SRIRAM S S
-RegisterNumber:  212222230150
+Developed by: LEANN JOBY MATHEW
+RegisterNumber:  212222230074
 */
 module enc(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
 input d0,d1,d2,d3,d4,d5,d6,d7;
@@ -108,6 +108,7 @@ Developed by: LEANN JOBY MATHEW
 
 RegisterNumber:  21222230074
 */
+```python
 module enc(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
 input a,b,c;
 output d0,d1,d2,d3,d4,d5,d6,d7;
@@ -121,6 +122,7 @@ assign d6 = (a&b&~c);
 assign d7 = (a&b&c);
 
 endmodule 
+```
 
 ### RTL LOGIC
 ![image](https://github.com/kaviya2839/Experiment-08-Encoders-and-decoders-/assets/120553351/fbf521d9-36f3-44ee-8493-93d2441b3310)
